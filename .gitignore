@@ -1,0 +1,22 @@
+# Files and directories to be ignored
+.idea/
+.venf/
+build/
+dist
+node_modules
+*.pycache/
+*(setup-config)/
+scripts/*.egg
+
+# Environment specific
+pghton_cache/
+ENV
+executable
+
+# These will be ignored by git
+
+data/
+venf.json"
+public
+artefacts_preprocess.txt
+run_times.dat
